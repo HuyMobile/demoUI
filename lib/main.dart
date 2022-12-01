@@ -36,14 +36,16 @@ class HomePage extends StatelessWidget {
               width: 150,),),
               Expanded(
                 flex: 2,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Text("Lập trình Flutter ",style: TextStyle(fontSize: 20),),
-                    Text("Thực chiến dự án app mobile 2022 dâddasdas",),
-                  ],
-              ))
+                  child: Center(
+                    child: Column(
+                    children: [
+                      Text("Lập trình Flutter ",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 20),),
+                      Text("Thực chiến dự án app\n mobile 2022 ",  textAlign: TextAlign.center,),
+                    ],
+              ),
+                  ))
             ],
           ),
           Divider(
@@ -57,8 +59,9 @@ class HomePage extends StatelessWidget {
               Expanded(
                   child: Column(
                     children: [
-                      Text("Lập trình Flutter",style: TextStyle(fontSize: 20),),
-                      Text("Thực chiến dự án app mobile 2022",),
+                      Text("Lập trình Flutter",
+                        textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      Text("Thực chiến dự án app mobile 2022",  textAlign: TextAlign.center,),
                     ],
                   )),
               Expanded(
@@ -82,8 +85,8 @@ class HomePage extends StatelessWidget {
                   flex: 2,
                   child: Column(
                     children: [
-                      Text("Lập trình Flutter",style: TextStyle(fontSize: 20),),
-                      Text("Thực chiến dự án app mobile 2022",),
+                      Text("Lập trình Flutter",  textAlign: TextAlign.center,style: TextStyle(fontSize: 20),),
+                      Text("Thực chiến dự án app mobile 2022",  textAlign: TextAlign.center,),
                     ],
                   )),
 
